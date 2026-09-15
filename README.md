@@ -1,15 +1,18 @@
-MILCOLK FIXED PRO
+MILCOLK — APPROVED FINAL BUILD
 
-IMPORTANT: upload ALL files AND the complete assets folder to the repository root.
-Expected structure:
+Upload EVERYTHING in this ZIP to the ROOT of the milcolk-store repository.
+
+Required structure:
 index.html
 styles.css
 script.js
-assets/hero.jpg
-assets/product-1.jpg ... product-6.jpg
-assets/men.jpg
-assets/women.jpg
-assets/essentials.jpg
+assets/
+  hero.jpg
+  product1.jpg ... product6.jpg
+  men.jpg
+  women.jpg
+  essentials.jpg
 
-The images are local and referenced with relative paths for GitHub Pages.
-Prices/product details are demo content until finalized.
+Do not upload only index.html. The assets folder is required.
+
+Product names/prices are presentation placeholders until MILCOLK finalizes commercial details.

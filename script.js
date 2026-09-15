@@ -1,1 +1,1 @@
-let n=0;const bag=document.getElementById('bag');document.querySelectorAll('.add').forEach(b=>b.onclick=()=>{bag.textContent=++n;b.textContent='ADDED ✓';setTimeout(()=>b.textContent='ADD +',900)});
+let n=0;document.querySelectorAll('.products button').forEach(b=>b.onclick=()=>{n++;document.getElementById('bag').textContent=n;b.textContent='✓';setTimeout(()=>b.textContent='+',700)});
