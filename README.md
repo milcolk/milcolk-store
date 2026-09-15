@@ -1,10 +1,10 @@
-MILCOLK ROOT PATH FIX
+MILCOLK POLISHED — ROOT IMAGE VERSION
 
-This version is made specifically for the current GitHub repository structure shown in your screenshot.
+Made for your current GitHub structure. Existing images remain in the repository root.
 
-Upload/replace ONLY:
-- index.html
-- styles.css
-- script.js
+Replace only:
+index.html
+styles.css
+script.js
 
-Do NOT move the existing JPG images. This code expects hero.jpg, product1.jpg through product6.jpg, men.jpg, women.jpg and essentials.jpg directly in the repository root.
+This version fixes the cropped/duplicated product labels, improves spacing and sizing, and turns MEN / WOMEN / ESSENTIALS into full editorial sections.
