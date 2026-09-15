@@ -1,23 +1,16 @@
-# MILCOLK — Official Clothing Store
+# MILCOLK — Premium Clothing Store V2
 
-Premium single-file storefront for **MILCOLK**.
+Premium GitHub Pages storefront for MILCOLK.
 
-## GitHub Pages
+## Included
+- Responsive premium fashion homepage
+- New Arrivals product cards
+- Shop by Category
+- Front-end shopping bag counter
+- MILCOLK compressed logo
+- Premium design reference image
 
-Upload `index.html` to the root of the `milcolk-store` repository.
+## Publish
+Upload the contents of this folder to the root of `milcolk-store`, then use GitHub Pages with `main` → `/(root)`.
 
-Then configure:
-
-`Settings → Pages → Deploy from a branch → main → /(root)`
-
-## Current version
-
-- Premium black / silver fashion aesthetic
-- Responsive desktop and mobile layout
-- Hero collection
-- Product cards
-- Collections
-- Front-end bag counter
-- GitHub Pages compatible
-
-> Products, prices, shipping and checkout shown are demonstration content until MILCOLK's real commercial details are configured.
+> Product names, prices, stock, shipping, checkout and commercial claims are presentation/demo content until connected to real store systems.
