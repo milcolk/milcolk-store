@@ -1,1 +1,1 @@
-let count=0;const n=document.getElementById('bagCount');document.querySelectorAll('.add').forEach(b=>b.addEventListener('click',()=>{count++;n.textContent=count;b.firstChild.textContent='ADDED ';setTimeout(()=>b.firstChild.textContent='ADD TO BAG ',800)}));
+let count=0;const out=document.getElementById('count');document.querySelectorAll('.quick').forEach(btn=>btn.onclick=()=>{count++;out.textContent=count;btn.textContent='ADDED ✓';setTimeout(()=>btn.textContent='QUICK ADD +',900)});

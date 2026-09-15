@@ -1,8 +1,14 @@
-# MILCOLK Premium Store V5
+# MILCOLK — Rebuilt Store
 
-Full-scale responsive fashion storefront for MILCOLK.
+Completely rebuilt storefront concept for MILCOLK.
 
-## GitHub Pages
-Upload `index.html`, `styles.css`, and `script.js` to the repository root and publish from `main` / `(root)`.
+Files:
+- index.html
+- styles.css
+- script.js
 
-Product names, prices, and availability are presentation/demo content until finalized for commercial launch.
+Upload all three files to the root of `milcolk-store`.
+
+GitHub Pages: main / (root)
+
+Note: product names, pricing, availability, shipping claims and collection details are presentation content and should be finalized before commercial launch.
