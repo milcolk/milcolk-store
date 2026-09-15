@@ -1,14 +1,18 @@
-# MILCOLK — Rebuilt Store
+# MILCOLK Premium Store
 
-Completely rebuilt storefront concept for MILCOLK.
+MILCOLK storefront package based on the approved premium visual direction.
 
-Files:
+## Upload to GitHub
+Upload the contents of this folder to the root of `milcolk-store`:
 - index.html
 - styles.css
 - script.js
+- assets/
 
-Upload all three files to the root of `milcolk-store`.
+GitHub Pages should use:
+- Branch: main
+- Folder: /(root)
 
-GitHub Pages: main / (root)
+The `assets/milcolk-premium-reference.png` file is included as the approved visual direction/reference.
 
-Note: product names, pricing, availability, shipping claims and collection details are presentation content and should be finalized before commercial launch.
+Important: product names, prices, shipping language and collection details are presentation/demo content until finalized by MILCOLK.
