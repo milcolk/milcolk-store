@@ -1,17 +1,7 @@
-# MILCOLK — Premium Store V3
-
-Premium responsive storefront concept for the MILCOLK clothing brand.
+# MILCOLK — Premium Clothing Store
+Premium black-and-gold responsive storefront concept for MILCOLK.
 
 ## GitHub Pages
-Upload `index.html` to the root of `milcolk-store`, then publish from `main` → `/(root)`.
+Upload all files to the root of `milcolk-store`, then enable **Settings → Pages → Deploy from a branch → main → /(root)**.
 
-## Included
-- Responsive premium black / cream / gold design
-- Hero section
-- New Arrivals
-- Product cards and sizes
-- Functional front-end bag counter
-- Shop by Category
-- Brand story
-
-Prices, products, availability and checkout are demonstration content until connected to real commerce infrastructure.
+> Product names, prices and store functionality are presentation/demo content until replaced with MILCOLK's real commercial details and checkout system.
