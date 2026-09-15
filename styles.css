@@ -2,3 +2,28 @@
 
 @media(min-width:1200px){.hero{grid-template-columns:1.12fr .88fr;min-height:690px}.hero h1{font-size:clamp(76px,6.6vw,126px)}.mark{width:min(440px,32vw)}.section{width:100%}.products{gap:24px}.photo{height:360px}.products h3{font-size:22px}.products p{font-size:15px}.catgrid{gap:18px}.catgrid a{padding:46px 28px}.story{padding:84px}}
 @media(min-width:1700px){header,.hero,.section,.story,footer{padding-left:max(5vw,90px);padding-right:max(5vw,90px)}.story{margin-left:max(5vw,90px);margin-right:max(5vw,90px)}.photo{height:410px}.products article{padding:16px}}
+/* V3 FULL SCREEN — optimized for wide laptops/desktops */
+@media (min-width:1200px){
+  header{height:92px;padding-left:4vw;padding-right:4vw}
+  .brand{font-size:28px}.brand span{width:48px;height:48px}
+  nav{gap:54px}nav a{font-size:14px}.bag{font-size:14px;padding:16px 26px}
+  .hero{min-height:690px;padding:72px 4vw;grid-template-columns:1.08fr .92fr;background:radial-gradient(circle at 80% 44%,#76532c 0,#342316 30%,#090a0a 66%)}
+  .hero h1{font-size:clamp(82px,7vw,138px);line-height:.84;letter-spacing:-6px;max-width:900px}
+  .lead{font-size:20px;max-width:720px}.eyebrow{font-size:12px}.primary,.secondary{font-size:13px;padding:20px 28px}
+  .mark{width:min(470px,31vw)}.bigm{font-size:210px}
+  .benefits div{padding:28px 4vw;font-size:13px}
+  .section{padding:92px 4vw}.heading h2,.categories h2,.story h2{font-size:48px}
+  .products{gap:24px}.products article{padding:16px}.photo{height:390px}.garment{font-size:120px}.products h3{font-size:23px}.products p{font-size:15px}.price b{font-size:28px}.products button{padding:18px;font-size:14px}
+  .catgrid{gap:18px}.catgrid a{padding:50px 30px;font-size:16px}
+  .story{margin:35px 4vw 100px;padding:84px}.story p:not(.eyebrow){font-size:18px;max-width:900px}
+  footer{padding:42px 4vw}
+}
+@media (min-width:1600px){
+  .hero{min-height:760px;padding-left:4.5vw;padding-right:4.5vw}
+  .section{padding-left:4.5vw;padding-right:4.5vw}
+  .products{gap:28px}.photo{height:440px}
+  .story{margin-left:4.5vw;margin-right:4.5vw}
+}
+@media (min-width:2100px){
+  .hero h1{font-size:150px}.hero{min-height:820px}.photo{height:500px}.products h3{font-size:27px}.lead{font-size:22px}
+}
