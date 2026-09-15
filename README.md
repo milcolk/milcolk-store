@@ -1,18 +1,8 @@
-# MILCOLK Premium Store
+# MILCOLK — Minimal Editorial Store
+Original MILCOLK storefront with a minimal editorial fashion direction inspired by modern large-format retailers.
 
-MILCOLK storefront package based on the approved premium visual direction.
+Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder to the root of your `milcolk-store` GitHub repository.
 
-## Upload to GitHub
-Upload the contents of this folder to the root of `milcolk-store`:
-- index.html
-- styles.css
-- script.js
-- assets/
+The campaign image in `assets/milcolk-hero.png` was created specifically for this MILCOLK concept.
 
-GitHub Pages should use:
-- Branch: main
-- Folder: /(root)
-
-The `assets/milcolk-premium-reference.png` file is included as the approved visual direction/reference.
-
-Important: product names, prices, shipping language and collection details are presentation/demo content until finalized by MILCOLK.
+Product names and prices are demo content. Replace them before commercial launch.
