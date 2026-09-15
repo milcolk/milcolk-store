@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MILCOLK — Official Clothing Store</title>
+<meta name="description" content="MILCOLK premium clothing and modern streetwear.">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#08090b;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}
+.top{background:#f3f3f3;color:#090909;text-align:center;padding:10px;font-size:12px;font-weight:800;letter-spacing:2px}
+nav{height:84px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid #292b30;position:sticky;top:0;background:rgba(8,9,11,.96);z-index:10}
+.brand{display:flex;align-items:center;gap:13px;font-weight:900;font-size:24px;letter-spacing:4px}.mark{width:43px;height:43px;border:1px solid #eee;display:grid;place-items:center;font-weight:900;font-size:22px}
+.links{display:flex;gap:32px;font-size:13px;font-weight:700}.bag{border:1px solid #eee;padding:13px 20px;border-radius:2px;font-weight:800}
+.hero{min-height:690px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;padding:70px 6%;background:radial-gradient(circle at 82% 40%,#30343b 0,#15171b 22%,#08090b 50%)}
+.kicker,.eyebrow{font-size:11px;letter-spacing:4px;font-weight:900;color:#c8cbd0}.hero h1{font-size:clamp(64px,8vw,128px);line-height:.82;margin:18px 0 28px;letter-spacing:-6px}.hero h1 span{color:#bfc2c7}
+.hero p{max-width:560px;color:#b7bbc2;font-size:18px;line-height:1.7}.actions{display:flex;gap:12px;margin-top:32px}.btn{border:1px solid #f3f3f3;padding:17px 24px;font-weight:900;font-size:12px;letter-spacing:1px;background:#f3f3f3;color:#08090b;cursor:pointer}.btn.alt{background:transparent;color:#fff}
+.hero-art{display:grid;place-items:center}.hero-logo{width:min(440px,80vw);aspect-ratio:1;border:1px solid #4a4e55;border-radius:50%;display:grid;place-items:center;box-shadow:0 0 100px #24272d inset,0 30px 100px #000}.hero-logo span{font-size:180px;font-weight:900;transform:skew(-8deg);color:#e7e8ea;text-shadow:14px 14px #555a62}
+.trust{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #292b30;border-bottom:1px solid #292b30}.trust div{padding:25px 6%;border-right:1px solid #292b30}.trust b{display:block;font-size:13px}.trust small{color:#8f949d}
+section{padding:90px 6%}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:35px}.section-head h2{font-size:44px;margin:8px 0 0}.section-head a{font-size:11px;font-weight:900;letter-spacing:1px;border-bottom:1px solid}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#101216;border:1px solid #30343a;padding:12px}.photo{height:330px;background:linear-gradient(145deg,#1d2026,#090a0c);display:grid;place-items:center;position:relative;overflow:hidden}.tag{position:absolute;top:12px;left:12px;background:#f4f4f4;color:#111;padding:7px 9px;font-size:9px;font-weight:900;letter-spacing:1px}.garment{font-size:105px;filter:grayscale(1);text-shadow:0 15px 35px #000}.info{padding:18px 5px 7px}.type{font-size:9px;letter-spacing:2px;color:#aeb2b9;font-weight:900}.info h3{margin:8px 0;font-size:17px}.desc{color:#9297a0;font-size:12px;min-height:32px}.price{display:flex;align-items:center;justify-content:space-between;margin:18px 0 12px;font-size:18px;font-weight:900}.add{width:100%;padding:13px;background:#f1f1f1;border:0;font-weight:900;cursor:pointer}
+.categories{background:#0d0f12}.catgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.cat{min-height:190px;border:1px solid #333840;padding:26px;display:flex;flex-direction:column;justify-content:end;background:linear-gradient(145deg,#171a20,#0a0b0d)}.cat b{font-size:23px}.cat span{color:#969ba4;margin-top:7px;font-size:12px}
+.banner{margin:0 6% 90px;padding:65px;background:linear-gradient(120deg,#dedede,#8e9299);color:#090909;display:flex;justify-content:space-between;align-items:center}.banner h2{font-size:48px;max-width:620px;margin:0}.banner p{max-width:480px;line-height:1.6}
+footer{border-top:1px solid #292b30;padding:50px 6%;display:flex;justify-content:space-between;color:#9da1a9;font-size:12px}.footerbrand{color:#fff;font-weight:900;letter-spacing:3px;font-size:18px}
+.toast{position:fixed;right:25px;bottom:25px;background:#f3f3f3;color:#111;padding:15px 20px;font-weight:800;display:none;z-index:20}
+@media(max-width:900px){.links{display:none}.hero{grid-template-columns:1fr;padding-top:60px}.hero h1{font-size:68px;letter-spacing:-4px}.hero-art{margin-top:50px}.hero-logo{width:300px}.hero-logo span{font-size:120px}.trust{grid-template-columns:1fr 1fr}.products{grid-template-columns:1fr 1fr}.catgrid{grid-template-columns:1fr 1fr}.banner{margin:0 4% 60px;padding:35px;display:block}.banner h2{font-size:36px}}
+@media(max-width:560px){nav{padding:0 4%}.brand{font-size:18px;letter-spacing:2px}.hero{padding:45px 5%}.hero h1{font-size:52px}.hero p{font-size:15px}.actions{flex-direction:column}.trust{grid-template-columns:1fr}.products,.catgrid{grid-template-columns:1fr}section{padding:65px 5%}.section-head h2{font-size:34px}.photo{height:380px}.banner{margin:0 5% 50px}.banner h2{font-size:31px}footer{display:block}.footerbrand{margin-bottom:15px}}
+</style>
+</head>
+<body>
+<div class="top">MILCOLK • MODERN CLOTHING • NEW COLLECTION</div>
+<nav>
+<a class="brand" href="#"><span class="mark">M</span>MILCOLK</a>
+<div class="links"><a href="#shop">SHOP</a><a href="#collections">COLLECTIONS</a><a href="#about">ABOUT</a></div>
+<a class="bag" href="#shop">BAG <span id="count">0</span></a>
+</nav>
+
+<header class="hero">
+<div>
+<div class="kicker">MILCOLK • CLOTHING • STYLE • IDENTITY</div>
+<h1>WEAR<br>YOUR<br><span>IDENTITY.</span></h1>
+<p>Modern clothing built around clean design, confident silhouettes and everyday comfort. A new wardrobe starts with MILCOLK.</p>
+<div class="actions"><a class="btn" href="#shop">SHOP THE COLLECTION →</a><a class="btn alt" href="#about">DISCOVER MILCOLK</a></div>
+</div>
+<div class="hero-art"><div class="hero-logo"><span>M</span></div></div>
+</header>
+
+<div class="trust">
+<div><b>✦ PREMIUM STYLE</b><small>Modern everyday essentials</small></div>
+<div><b>◈ QUALITY FOCUSED</b><small>Designed with attention to detail</small></div>
+<div><b>↻ EASY EXPERIENCE</b><small>Simple modern shopping</small></div>
+<div><b>◇ NEW COLLECTIONS</b><small>Built for what comes next</small></div>
+</div>
+
+<section id="shop">
+<div class="section-head"><div><div class="eyebrow">FEATURED COLLECTION</div><h2>New Arrivals</h2></div><a href="#collections">VIEW COLLECTIONS →</a></div>
+<div class="products">
+<article class="card"><div class="photo"><span class="tag">NEW</span><span class="garment">👕</span></div><div class="info"><span class="type">ESSENTIALS</span><h3>MILCOLK Signature Tee</h3><div class="desc">Clean everyday tee with a premium minimal look.</div><div class="price"><span>$38.00</span><span>XS–XXL</span></div><button class="add">ADD TO BAG</button></div></article>
+<article class="card"><div class="photo"><span class="tag">FEATURED</span><span class="garment">🧥</span></div><div class="info"><span class="type">STREETWEAR</span><h3>Essential Hoodie</h3><div class="desc">Relaxed silhouette designed for everyday layering.</div><div class="price"><span>$78.00</span><span>S–XXL</span></div><button class="add">ADD TO BAG</button></div></article>
+<article class="card"><div class="photo"><span class="tag">NEW</span><span class="garment">👖</span></div><div class="info"><span class="type">BOTTOMS</span><h3>Modern Relaxed Pants</h3><div class="desc">A versatile relaxed fit for a clean modern wardrobe.</div><div class="price"><span>$64.00</span><span>S–XL</span></div><button class="add">ADD TO BAG</button></div></article>
+<article class="card"><div class="photo"><span class="tag">LIMITED</span><span class="garment">🧢</span></div><div class="info"><span class="type">ACCESSORIES</span><h3>MILCOLK Logo Cap</h3><div class="desc">Minimal branded cap made to finish the look.</div><div class="price"><span>$32.00</span><span>ONE SIZE</span></div><button class="add">ADD TO BAG</button></div></article>
+</div>
+</section>
+
+<section class="categories" id="collections">
+<div class="section-head"><div><div class="eyebrow">SHOP YOUR STYLE</div><h2>Collections</h2></div></div>
+<div class="catgrid">
+<div class="cat"><b>T-Shirts</b><span>Everyday essentials →</span></div>
+<div class="cat"><b>Hoodies</b><span>Premium layers →</span></div>
+<div class="cat"><b>Bottoms</b><span>Modern silhouettes →</span></div>
+<div class="cat"><b>Accessories</b><span>Finish the look →</span></div>
+</div>
+</section>
+
+<div class="banner" id="about">
+<div><div class="eyebrow" style="color:#333">THE MILCOLK STANDARD</div><h2>Clothing for a brighter you.</h2></div>
+<p>MILCOLK is being built as a distinctive clothing brand centered on modern style, comfort and identity. This storefront is the beginning of the brand's digital experience.</p>
+</div>
+
+<footer><div class="footerbrand">MILCOLK</div><div>© 2026 MILCOLK. All rights reserved. • Demo storefront — products, prices, shipping and checkout are presentation content until commercially configured.</div></footer>
+<div class="toast" id="toast">Added to bag ✓</div>
+<script>
+let count=0;const c=document.getElementById('count'),t=document.getElementById('toast');
+document.querySelectorAll('.add').forEach(b=>b.onclick=()=>{count++;c.textContent=count;t.style.display='block';clearTimeout(window.tt);window.tt=setTimeout(()=>t.style.display='none',1500)});
+</script>
+</body></html>
