@@ -1,18 +1,10 @@
-MILCOLK — APPROVED FINAL BUILD
+MILCOLK ROOT PATH FIX
 
-Upload EVERYTHING in this ZIP to the ROOT of the milcolk-store repository.
+This version is made specifically for the current GitHub repository structure shown in your screenshot.
 
-Required structure:
-index.html
-styles.css
-script.js
-assets/
-  hero.jpg
-  product1.jpg ... product6.jpg
-  men.jpg
-  women.jpg
-  essentials.jpg
+Upload/replace ONLY:
+- index.html
+- styles.css
+- script.js
 
-Do not upload only index.html. The assets folder is required.
-
-Product names/prices are presentation placeholders until MILCOLK finalizes commercial details.
+Do NOT move the existing JPG images. This code expects hero.jpg, product1.jpg through product6.jpg, men.jpg, women.jpg and essentials.jpg directly in the repository root.
