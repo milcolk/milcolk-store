@@ -1,13 +1,8 @@
-# MILCOLK Premium Store V4
+# MILCOLK Premium Store V5
 
-Premium fashion storefront concept for MILCOLK.
+Full-scale responsive fashion storefront for MILCOLK.
 
-## Files
-- `index.html`
-- `styles.css`
-- `script.js`
+## GitHub Pages
+Upload `index.html`, `styles.css`, and `script.js` to the repository root and publish from `main` / `(root)`.
 
-Upload these files to the root of the `milcolk-store` repository and publish with GitHub Pages from `main` → `/(root)`.
-
-## Important
-The products, prices, shipping message and storefront functions are presentation/demo content. Connect real inventory, checkout, shipping rules, policies and customer support details before commercial launch.
+Product names, prices, and availability are presentation/demo content until finalized for commercial launch.
