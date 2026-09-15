@@ -1,15 +1,13 @@
-# MILCOLK Premium Store V3 — Full Screen
+# MILCOLK Premium Store V4
 
-Wide-screen premium storefront for MILCOLK.
+Premium fashion storefront concept for MILCOLK.
 
-## Improvements
-- Full-width desktop/laptop layout
-- Larger hero and typography
-- Larger product cards and product presentation
-- Premium black + gold visual identity
-- Responsive mobile/tablet layout
-- Working demo bag counter
+## Files
+- `index.html`
+- `styles.css`
+- `script.js`
 
-Upload `index.html`, `styles.css`, and `script.js` to the root of the GitHub Pages repository.
+Upload these files to the root of the `milcolk-store` repository and publish with GitHub Pages from `main` → `/(root)`.
 
-Product names, prices, photography and commercial details are presentation/demo content until replaced with the brand's real catalog.
+## Important
+The products, prices, shipping message and storefront functions are presentation/demo content. Connect real inventory, checkout, shipping rules, policies and customer support details before commercial launch.
